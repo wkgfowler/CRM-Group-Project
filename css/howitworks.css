@@ -83,7 +83,6 @@
     background-color:blue ;
     border: none;
     border-radius: 8px;
-    color: ;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -129,9 +128,14 @@
     
 }
 
+/*End of The Buttons*/
+
+
 .center{
     text-align: center;
 }
+
+
 
 ol{
     list-style-type: disc;
@@ -147,3 +151,43 @@ ol{
     padding-top: 100px;
     text-align: left;
     border: none;
+}
+
+
+
+
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 60, 255, 0.966);
+    padding-top: 2%;
+    height: 350px;
+}
+
+.bot-icons{
+    font-family: fontawesome;
+    font-size: large;
+    margin-top: 1%;
+}
+
+.get-started{
+    background-color: rgba(128, 255, 0, 0.822);
+    width: 10%;
+    color: white;
+    border-color: rgba(128, 255, 0, 0.822);
+    border-radius: 5px;
+    padding-left: 1.2%;
+    padding-bottom: 0.1%;
+}
+
+.chat{
+    background-color: white;
+    color: blue;
+    margin-left: 4%;
+    width: 8%;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 90%;
+    padding: 0.2%;
+}
