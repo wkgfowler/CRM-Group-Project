@@ -59,18 +59,10 @@
  
 /* Images*/
 .row-headerside{
-    height:; 
     width: 50%;
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-
-
-
-.row-collect-info{
-
 }
 
 .payment-logo img{
@@ -83,7 +75,6 @@
     background-color:blue ;
     border: none;
     border-radius: 8px;
-    color: ;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -120,13 +111,6 @@
     border: 2px solid blue;
     margin-left:25px;
 
-}
-
-.button5{
-    
-}
-.button6{
-    
 }
 
 .center{
