@@ -1,6 +1,6 @@
-.rowexplore {
+.row-explore {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 3%;
 }
 
 .center {
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 2%;
     text-align: center;
     vertical-align: bottom;
     border: none;
@@ -22,17 +22,15 @@
     max-width: 100%;
 }
 
-hr { 
-    display: block;
-    width: 75%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    background-color: #000;
- } 
+hr.break {
+    background-color:#000;
+    color: #000;
+    width: 45%;
+    height: 1px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+}
 
 .button-explore {
     position: relative;
@@ -78,7 +76,7 @@ hr {
 
 .payments-button {
     position: relative;
-    background-color: blue;
+    background-color: rgba(0, 60, 255, 0.966);
     color: #fff;
     height: 110px;
     width: 100px;
@@ -102,7 +100,7 @@ hr {
 }
 
 .payment-benefits {
-    background-color: blue;
+    background-color: rgba(0, 60, 255, 0.966);
     color: #fff;
     padding: 100px 100px 100px 25px;
     border-radius: 0 25px 25px 0;
