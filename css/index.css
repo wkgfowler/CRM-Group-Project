@@ -1,3 +1,23 @@
+.navbar-nav {
+    display:table;
+    width: 75%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+nav {
+    display: block;
+}
+
+.nav-item {
+    border: none;
+    color: #fff;
+}
+
 .row-explore {
     text-align: center;
     padding-top: 3%;
