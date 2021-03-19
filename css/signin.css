@@ -6,20 +6,13 @@
 
 .left-side{
     color: white;
-    border-radius: 0 0 10000% 10%;
     text-align: center;
     padding-top: 45px;
     padding-right: 350px;
-}
-
-.background{
-    content:"";
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 300px;
-    width: 300px;
-    box-shadow: 220px 150px 0 0 blue;
+    background-image: url(../images/CRM-SignIn/hopethisworks.png);
+    clip-path: ellipse(60% 100% at 10% 0%);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: blue;
 }
 
