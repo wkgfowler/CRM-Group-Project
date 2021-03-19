@@ -32,12 +32,14 @@
 <!-- Navbar End -->
 
 
-<!-- Main Container for Page -->
-<div class="container">
+<!-- Horizontal Rule between Header and Explore Section -->
+<div class="col-md-12 row-explore">
+<hr class="break">
+</div>
+<!-- Horizontal Rule End -->
 
 <!-- Explore Section Start -->
 <div class="row-explore col-md-12">
-    <hr style="border: #000;">
     <h3 class="center">Start to Explore Double Tap</h3>
     <p class="center">A new and better way for businesses to manage their customer base, payments and <br /> 
         keep track of internal tasks</p>
@@ -45,7 +47,8 @@
 
 <!-- Buttons for Explore Section -->
 <div class="rowlogos">
-    <div class="col-md-3">
+    <div class="col-md-2"></div>
+    <div class="col-md-2">
         <button class="payments-button">
             <div class="fa-stack" style="vertical-align: top;">
                 <i class="fas fa-circle fa-stack-2x"></i>
@@ -55,34 +58,39 @@
         </button>
     </div>
 
-    <div class="col-md-3">
-        <!-- <button class="button-explore"><a href="#"><i class="far fa-user fa-2x explore-items"></i> -->
+    <div class="col-md-2">
         <button class="button-explore"><img class="explore-img" src="images/CRM-Main/retain_user_img.png" alt="user icon">
             <div class="button-text">Retain</div>
         </button>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-2">
         <button class="button-explore"><img class="explore-img" src="/images/CRM-Main/bar_chart2.png" alt="bar chart">
             <div class="button-text">Reporting</div>
         </button>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-2">
         <button class="button-explore"><img class="explore-img" src="/images/CRM-Main/convert_arrows.png" alt="left and right arrows">
             <div class="button-text">Convert</div>
         </button>
     </div>
+    <div class="col-md-2"></div>
 </div>
 <!-- End of Buttons for Explore Section -->
 
 <!-- Accept Payments with Ease Section Start -->
 <div class="row-accept-payment col-md-12">
-    <div class="payment-logo col-md-4">
+    <!-- Column 1 is empty div for spacing -->
+    <div class="col-md-2"></div>
+
+    <!-- Column 2 for image only -->
+    <div class="payment-logo col-md-3">
         <img src="./images/CRM-How-it-works/credit-card-picture.png" alt="take payments image">
     </div>
 
-    <div class="payment-benefits col-md-8">
+    <!-- Column 3 benefits list -->
+    <div class="payment-benefits col-md">
         <h3>Start accepting payments with Ease</h3>
         <p>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</p>
         <ul class="benefits">
@@ -91,10 +99,15 @@
             <li>Integrate with popular payment gateways like Stripe, and Braintree</li>
             <li>Select from a variety of different checkout options and experiences</li>
         </ul>
+        
             <div class="row col-md-12 div-learn-more">
                 <button class="button-learn-more"><a href="#">Learn More <i class="fas fa-angle-right fa-2x fa-pull-right"></i></a></button>
             </div>
+         
     </div>
+    
+    <!-- Column 4 is empty div for spacing -->
+    <div class="col-md-2"></div>  
 </div>
 <!-- End of Accept Payments with Ease Section -->
 
@@ -158,12 +171,20 @@
                 </button>
             </div>
         </div>
-
-        
-
-
     </div>
+</div>
+<!-- End of Solutions to Fit Your Business Needs Section -->
 
-</div>    
+<!-- Footer Start -->
+<div class="footer col-md-12">
+    <h1>Try Double Tap Today!</h1>
+    <h4>Let's Get Started</h4>
+    <p class="bot-icons">
+        <a href="./signup.html"><button class="get-started">Get Started &emsp;<i class="fa fa-angle-double-right"></i></button></a><button class="chat"><i class="fas fa-comment-dots"></i>&ensp; <b><small>Chat With Us</small></b></button>
+    </p><br>
+    <p>Free 14 day trial &emsp;<i class='fas fa-circle'></i> &emsp; Manage Customers in Minutes &emsp;<i class='fas fa-circle'></i> &emsp; Cancel at Anytime</p>
+</div>
+<!-- Footer End -->
+
 </body>
 </html>
