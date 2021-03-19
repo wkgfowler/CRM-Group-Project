@@ -8,6 +8,10 @@
     height: 30px;
 
 }
+.h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
 
 input{
     border-radius: 25px;
@@ -22,9 +26,23 @@ input{
     background-color:rgba(0, 68, 255, 0.863);
     border-radius: 35px;
     width: 30%;
-    padding: 10px 25px 10px 0;
     margin-right: 20px;
     color: white;
-    font-size: 150%;
+    font-size: 100%;
     border: 0px;
+}
+
+.col {
+    color: black;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 70px;
+    font-weight: bold;
+}
+
+.icons img{
+    width: 17%;
+    height: 17%;
+    padding: 0 10px;
+   align-content: center;
 }
