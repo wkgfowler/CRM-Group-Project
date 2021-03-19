@@ -1,0 +1,107 @@
+/*
+.row1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 200px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+.leftside{
+    text-align: left;
+    background-color: black;
+
+}
+
+.rightside{
+    text-align: center;
+    background-color: blue;
+}
+
+*/
+
+#NarBar
+
+.topnav {
+    color: black;
+    overflow: hidden;
+}
+
+/* Style the topnav links */
+.topnav a {
+    display: inline-block;
+    background-color:white;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+  /* Change color on hover */
+  .topnav a:hover {
+    color: lightskyblue;
+}
+/*Logo*/
+
+.logo{
+    position: relative;
+    left:20px;
+    width: 105px;
+    height: 37px;
+}
+
+ 
+/*The Buttons*/
+.button{
+    background-color:blue ;
+    border: none;
+    border-radius: 8px;
+    color: ;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+
+}
+
+.button2{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    margin-left:25px;
+
+}
+
+.button3{
+    
+}
+
+.button4{
+    
+}
+
+.button5{
+    
+}
+.button6{
+    
+}
+
+.center{
+    text-align: center;
+}
