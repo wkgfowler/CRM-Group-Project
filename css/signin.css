@@ -6,21 +6,15 @@
 
 .left-side{
     color: white;
-    border-radius: 0 0 10000% 10%;
     text-align: center;
-    padding-top: 45px;
-    padding-right: 350px;
-}
-
-.background{
-    content:"";
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 300px;
-    width: 300px;
-    box-shadow: 220px 150px 0 0 blue;
+    padding-top: 4%;
+    padding-right: 15%;
+    background-image: url(../images/CRM-SignIn/e);
+    clip-path: ellipse(85% 160% at 12% -61%);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: blue;
+    height: 910px;
 }
 
 .button1{
@@ -33,25 +27,34 @@
     font-size: 150%;
 }
 
+.left-side img{
+    width: 55%;
+    height: 55%;
+    position: relative;
+    margin-left: 12%;
+    margin-top: 7%;
+}
+
 .right-side{
     color: black;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5%;
     font-weight: bold;
 }
 
 .right-side>h1{
-    margin-right: 150px;
+    margin-right: 17%;
 }
 
 .placeicon{
     font-family: fontawesome;
+    font-size: large;
 }
 
 input{
-    width: 50%;
+    width: 60%;
     border-radius: 35px;
-    padding: 15px 30px;
+    padding: 20px 35px;
 }
 
 .button2{
@@ -59,7 +62,7 @@ input{
     border-radius: 35px;
     width: 30%;
     padding: 10px 25px 10px 0;
-    margin-right: 20px;
+    margin-right: 3%;
     color: white;
     font-weight: bold;
     font-size: 150%;
@@ -67,7 +70,7 @@ input{
 }
 
 h4{
-    padding-right: 20px;
+    padding-right: 3%;
 }
 
 .icons img{

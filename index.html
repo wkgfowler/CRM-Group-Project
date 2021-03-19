@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <link rel="stylesheet" href=/../css/index.css>
+<link rel="stylesheet" href=/../css/howitworks.css>
 <script src="https://kit.fontawesome.com/00e52a2c97.js" crossorigin="anonymous"></script>
 
 <title>DoubleTap - Home</title>
@@ -17,35 +18,60 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 
+<!-- Navbar Start -->
+<div class="topnav">
+    <img class="logo" src="./images/CRM-Main/Logo-1.png" alt="doubletap logo"style="color:blue">
+    <a href="#home">Home </a>
+    <a href="#feature">Features</a>
+    <a href="https://pinktaco.com/">Pricing</a>
+    <a href="https://pinktaco.com/">How it Works</a>
+    <a href="https://pinktaco.com/">Support</a>
+    <button class="button button1">Sign In</a>
+    <button class="button button2">Try It Free</button>
+</div>
+<!-- Navbar End -->
+
+
 <!-- Main Container for Page -->
 <div class="container">
 
 <!-- Explore Section Start -->
 <div class="row-explore col-md-12">
+    <hr style="border: #000;">
     <h3 class="center">Start to Explore Double Tap</h3>
-    <p class="center">A new and better way for businesses to manage their customer base, payments and keep track of internal tasks</p>
+    <p class="center">A new and better way for businesses to manage their customer base, payments and <br /> 
+        keep track of internal tasks</p>
 </div>
 
 <!-- Buttons for Explore Section -->
 <div class="rowlogos">
-    <div class="payments col-md-3">
-        <button class="button-explore payments-button" href="#"><i class="fas fa-dollar-sign fa-lg circle-icon"></i>
-        <p>Payments</p></button>
+    <div class="col-md-3">
+        <button class="payments-button">
+            <div class="fa-stack" style="vertical-align: top;">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-dollar-sign fa-stack-1x"></i>
+            </div>
+            <div class="button-text">Payments</div>
+        </button>
     </div>
 
-    <div class="retain col-md-3">
-        <button class="button-explore" href="#"><i class="far fa-user fa-lg"></i>
-        <p>Retain</p></button>
+    <div class="col-md-3">
+        <!-- <button class="button-explore"><a href="#"><i class="far fa-user fa-2x explore-items"></i> -->
+        <button class="button-explore"><img class="explore-img" src="images/CRM-Main/retain_user_img.png" alt="user icon">
+            <div class="button-text">Retain</div>
+        </button>
     </div>
 
-    <div class="reporting col-md-3">
-        <button class="button-explore" href="#"><img class="img-explore" src="/images/CRM-Main/layer1@2x.png" alt="bar chart">
-        <p>Reporting</p></button>
+    <div class="col-md-3">
+        <button class="button-explore"><img class="explore-img" src="/images/CRM-Main/bar_chart2.png" alt="bar chart">
+            <div class="button-text">Reporting</div>
+        </button>
     </div>
 
-    <div class="convert col-md-3">
-        <button class="button-explore" href="#"><img class="img-explore" src="/images/CRM-Main/upanddown opposite sidebyside updown directions two arrows.png" alt="left and right arrows">
-        <p>Convert</p></button>
+    <div class="col-md-3">
+        <button class="button-explore"><img class="explore-img" src="/images/CRM-Main/convert_arrows.png" alt="left and right arrows">
+            <div class="button-text">Convert</div>
+        </button>
     </div>
 </div>
 <!-- End of Buttons for Explore Section -->
@@ -62,14 +88,82 @@
         <ul class="benefits">
             <li>Accept credit & debit cards, PayPal, ACH, Apple Pay and more with the flick of a switch</li>
             <li>Process transactions in up to 32 different currencies</li>
-            <li>integrate with popular payment gateways like Stripe, and Braintree</li>
+            <li>Integrate with popular payment gateways like Stripe, and Braintree</li>
             <li>Select from a variety of different checkout options and experiences</li>
         </ul>
-        <button class="button-learn-more">Learn More</button>
+            <div class="row col-md-12 div-learn-more">
+                <button class="button-learn-more"><a href="#">Learn More <i class="fas fa-angle-right fa-2x fa-pull-right"></i></a></button>
+            </div>
     </div>
 </div>
+<!-- End of Accept Payments with Ease Section -->
+
+<!-- Solutions to Fit Your Business Needs Section Start -->
+<div class="div-needs row-col-md-12">
+    <h3 class="center">Solutions to fit your Business Needs</h3>
+</div>
+
+<div class="container">
+    <div class="row row-bus-needs">
+        <div class="col-md-6">
+            <img src="/images/CRM-Main/laptop_icon_lg.png" alt="laptop">
+            
+            <div class="col-md-12 needs-icons">
+                <h3>Email Dashboards</h3>
+                <p class="center">Automate client responses, and keep track of <br> any communication your team has with a client.</p>
+            </div>
+            <div class="row col-md-12 div-bus-needs">
+                <button class="button-learn-more-black">Learn More <i class="fas fa-angle-right fa-2x fa-pull-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <img src="/images/CRM-Main/checkmark.png" alt="checkbox">
+
+            <div class="col-md-12 needs-icons">
+                <h3>Task Management</h3>
+                <p class="center">Automate client responses, and keep track of <br> any communication your team has with a client.</p>
+            </div>
+            <div class="row col-md-12 div-bus-needs">
+                <button class="button-learn-more-black">Learn More <i class="fas fa-angle-right fa-2x fa-pull-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-features">
+        <div class="col-md-6">
+            <img src="/images/CRM-Main/analytics_icon_resized.png" alt="circle">
+
+            <div class="col-md-12 needs-icons">
+                <h3>Analytics</h3>
+                <p class="center">Automate client responses, and keep track of <br> any communication your team has with a client.</p>
+            </div>
+            <div class="row col-md-12 div-bus-needs">
+                <button class="button-learn-more-black">Learn More <i class="fas fa-angle-right fa-2x fa-pull-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <img src="/images/CRM-Main/calendar_icon_resized.png" alt="circle">
+
+            <div class="col-md-12 needs-icons">
+                <h3>Project Calendars</h3>
+                <p class="center">Automate client responses, and keep track of <br> any communication your team has with a client.</p>
+            </div>
+            <div class="row col-md-12 div-bus-needs">
+                <button class="button-learn-more-black">Learn More <i class="fas fa-angle-right fa-2x fa-pull-right"></i>
+                </button>
+            </div>
+        </div>
+
+        
 
 
+    </div>
 
+</div>    
 </body>
 </html>
