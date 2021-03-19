@@ -25,7 +25,7 @@
 
 */
 
-#NarBar
+/* NarBar */
 
 .topnav {
     color: black;
@@ -56,7 +56,27 @@
     width: 105px;
     height: 37px;
 }
+ 
+/* Images*/
+.row-headerside{
+    height:; 
+    width: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
+
+
+
+.row-collect-info{
+
+}
+
+.payment-logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
  
 /*The Buttons*/
 .button{
@@ -72,6 +92,7 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .button1{
     background-color: white;
     color: blue;
@@ -88,11 +109,17 @@
 }
 
 .button3{
-    
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;    
 }
 
 .button4{
-    
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    margin-left:25px;
+
 }
 
 .button5{
@@ -105,3 +132,18 @@
 .center{
     text-align: center;
 }
+
+ol{
+    list-style-type: disc;
+    display: inline;
+
+}
+
+
+.row-collect-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    text-align: left;
+    border: none;
