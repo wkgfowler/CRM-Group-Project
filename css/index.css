@@ -1,5 +1,6 @@
 .rowexplore {
     text-align: center;
+    padding-top: 20px;
 }
 
 .center {
@@ -21,20 +22,80 @@
     max-width: 100%;
 }
 
+hr { 
+    display: block;
+    width: 75%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #000;
+ } 
+
 .button-explore {
-    height: 100px;
+    position: relative;
+    height: 110px;
     width: 100px;
-    border-radius: 10px; 
+    border: solid 3px lightgray;
+    border-radius: 15px;
+    color: #000;
+    text-align: center; 
 }
 
-.img-explore {
-    width: 50%;
-    height: 50%;
+.button-explore:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button-explore a{
+    color: #000;
+}
+
+.button-explore a:hover{
+    color: #000;
+}
+
+.button-text {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.explore-items {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    text-align: center; 
+}
+
+.explore-img {
+    margin: auto;
+    width: 55%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 35%;
+    padding-right: 5%;
+    text-align: center; 
 }
 
 .payments-button {
+    position: relative;
     background-color: blue;
     color: #fff;
+    height: 110px;
+    width: 100px;
+    border: solid 3px lightgray;
+    border-radius: 15px;  
+}
+
+.payments-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .payment-logo {
@@ -85,13 +146,47 @@ ul li:before {
     border-radius: 10px;
 }
 
-/* .circle-icon {
-    background-color: #fff;
-    width: 2%;
-    height: 2%;
-    border-radius: 50%;
+.div-learn-more {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button a:hover {
+    color: #fff;
+}
+
+.fa-dollar-sign {
+    color: #000;
+}
+
+.fa-stack {
+    margin: auto;
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 65%;
+    padding-right: 5%;
+    text-align: center; 
+}
+
+.div-needs {
+    padding-top: 125px;
     text-align: center;
-    line-height: 10px;
-    vertical-align: middle;
-    padding: 30px;
-} */
+}
+
+.row-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: bottom;
+    border: none;
+}
