@@ -1,3 +1,39 @@
+body{
+    padding-top: 5%;
+}
+
+.navbar-brand{
+    padding-left: 7%;
+}
+
+.navbar-nav {
+    display:table;
+    width: 50%;
+    margin: 0;
+    padding-top: 1%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+.d-flex{
+    width: 22%;
+    justify-content: center;
+}
+
+nav {
+    display: block;
+}
+
+.nav-item {
+    border: none;
+    color: #fff;
+}
+
 .row-explore {
     text-align: center;
     padding-top: 3%;

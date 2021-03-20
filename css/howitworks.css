@@ -59,19 +59,11 @@
  
 /* Images*/
 .row-headerside{
-    
     width: 50%;
     display: block;
     max-width: 100%;
     height: auto;
 }
-
-
-
-
-/*.row-collect-info{}*/
-
-
 
 .payment-logo img{
     max-height: 100%;
@@ -96,7 +88,9 @@
     background-color: white;
     color: blue;
     border: 2px solid blue;
-
+    border-radius: 10px;
+    width: 25%;
+    font-weight: bold;
 }
 
 .button2{
@@ -104,7 +98,7 @@
     color: white;
     border: 2px solid blue;
     margin-left:25px;
-
+    border-radius: 10px;
 }
 
 .button3{
@@ -120,11 +114,6 @@
     margin-left:25px;
 
 }
-
-
-
-/*End of The Buttons*/
-
 
 .center{
     text-align: center;
@@ -169,7 +158,7 @@ ol{
 .get-started{
     background-color: rgba(128, 255, 0, 0.822);
     width: 10%;
-    color: white;
+    color: rgba(255, 255, 255, 0.918);
     border-color: rgba(128, 255, 0, 0.822);
     border-radius: 5px;
     padding-left: 1.2%;
