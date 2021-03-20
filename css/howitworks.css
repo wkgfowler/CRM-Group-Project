@@ -89,6 +89,8 @@
     color: blue;
     border: 2px solid blue;
     border-radius: 10px;
+    width: 25%;
+    font-weight: bold;
 }
 
 .button2{
@@ -97,7 +99,6 @@
     border: 2px solid blue;
     margin-left:25px;
     border-radius: 10px;
-
 }
 
 .button3{
