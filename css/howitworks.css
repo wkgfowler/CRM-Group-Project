@@ -120,9 +120,11 @@
 }
 
 
+
 ol{
     list-style-type: disc;
     display: inline;
+
 }
 
 
@@ -173,4 +175,3 @@ ol{
     font-size: 90%;
     padding: 0.2%;
 }
-
