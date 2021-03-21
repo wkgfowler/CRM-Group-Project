@@ -13,12 +13,12 @@
     clip-path: ellipse(85% 160% at 12% -61%);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: blue;
+    background-color: rgba(0, 60, 255, 0.966);
     height: 910px;
 }
 
 .button1{
-    background-color: blue;
+    background-color: rgba(0, 60, 255, 0.966);
     color: white;
     border-radius: 35px;
     width: 25%;
