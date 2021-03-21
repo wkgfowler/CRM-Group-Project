@@ -10,23 +10,20 @@
 
 .topLeft{
     text-align: left;
-   
-       
 }
 
 
 
 
 .topRight img{
-    width: 400px;
-    height: 440px;
+    width: 440px;
+    height: 460px;
     padding-bottom: 15px;
-    
 }
 
 
 .headerlist{
-    color: blue;
+    color: black;
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;;
 }
@@ -184,7 +181,7 @@
     color: blue;
     border: 2px solid blue;
     border-radius: 10px;
-    width: 25%;
+    width: 125%;
     font-weight: bold;
 }
 
@@ -192,8 +189,9 @@
     background-color: blue;
     color: white;
     border: 2px solid blue;
-    margin-left:25px;
+    margin-left: 35%;
     border-radius: 10px;
+    width: 120%;
 }
 
 .button3{
