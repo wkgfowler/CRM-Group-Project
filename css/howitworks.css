@@ -1,29 +1,128 @@
-/*
+
+
 .row1{
     display: flex;
     flex-direction: row;
-    text-align: center;
-    height: 200px;
+    margin-top: 3%;
+    
+
 }
+
+.topLeft{
+    text-align: left;
+   
+       
+}
+
+
+
+
+.topRight img{
+    width: 400px;
+    height: 440px;
+    padding-bottom: 15px;
+    
+}
+
+
+.headerlist{
+    color: blue;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
 
 .row2{
     display: flex;
     flex-direction: row;
-    color: red;
+    
 }
 
-.leftside{
-    text-align: left;
-    background-color: black;
+.center{
+    text-align: center;
+    border-top: 1px solid grey;
+    padding-top: 4%;
+    margin-top: 6%;
+}
+
+.row3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 490px;
+    width: 100%;
+    color: white;
+    margin: 4%;
+}
+
+.midLeftside img{
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    padding-top:11%;
+    padding-bottom: 25%;
+}
+
+.midLeftside{
+    border: 1px solid grey;
+    border-radius: 25px 0 0 25px;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right: 2%;
+    
+}
+
+.midRightside{
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 0 25px 25px 0;
+    padding-top: 5%;
+    padding-left: 5%;
+    
 
 }
 
-.rightside{
+.row4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    margin-bottom: 7%;
+}
+
+.centerBottom{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.row5{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6%;
+}
+
+.bottomLeft img{
+    width: 100%;
+    height: 100%;
+    padding-right: 17%;
+    padding-top: 20%;
+    padding-bottom: 90px;
+   
+    
+}
+
+.bottomRight{
+    color: white;
+    height: 100px;
     text-align: center;
     background-color: blue;
+    border-radius: 0 25px 25px 0;
+    padding-top: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 420px;
+   
 }
 
-*/
 
 /* NarBar */
 
@@ -57,18 +156,14 @@
     height: 37px;
 }
  
-/* Images*/
+/* Images 
 .row-headerside{
     width: 50%;
     display: block;
     max-width: 100%;
     height: auto;
 }
-
-.payment-logo img{
-    max-height: 100%;
-    max-width: 100%;
-}
+*/
  
 /*The Buttons*/
 .button{
@@ -102,30 +197,25 @@
 }
 
 .button3{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: blue;
-    border: 2px solid blue;    
+    border: 2px solid blue;
+    margin-left: 9px;
+    margin-top: 20px;    
 }
 
 .button4{
+    font-family: Arial, Helvetica, sans-serif;
+
     background-color: blue;
     color: white;
     border: 2px solid blue;
-    margin-left:25px;
+    margin-top: 20px;
 
 }
 
-.center{
-    text-align: center;
-}
-
-
-
-ol{
-    list-style-type: disc;
-    display: inline;
-
-}
+/*End of The Buttons*/
 
 
 .row-collect-info {
@@ -139,7 +229,7 @@ ol{
 
 
 
-
+/*The Footer*/
 
 .footer{
     text-align: center;
