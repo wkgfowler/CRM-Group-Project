@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="./css/signup_ER_Edits.css">
+<script src="https://kit.fontawesome.com/cdc43ac27b.js" crossorigin="anonymous"></script>
+
+<title>Sign Up</title>
+</head>
+<body>
+
+
+<!-- ER Change notes -->
+<!-- removed page container -->
+
+
+<!-- modified div to specify the full page is made up of
+     one row and one col-md-12 -->
+<div class="row col-md-12">
+
+    <!-- added Blank/Empty Column for Spacing on left side of screen -->
+    <div class="col-md-1"></div>
+
+    <!-- added Column 2 to contain Sign Up Form and Social Media Icons -->
+    <!-- made the <h1> Sign Up its own row -->
+    <div class="col-md-4">
+        <div class="row">
+            <h1 class="center">Sign Up</h1>
+        </div>
+    
+    <br>
+    
+    
+    <!-- Signup Form Start (includes input boxes and sign up button) -->
+    <!-- Added a second row within column 2 to hold the form contents -->
+    <div class="row">
+    <form action="/action_page.php">
+        <input type="text" id="usernamename" name="username" class ="placeicon" placeholder="&#xf007;"><br><br><br>
+        <input type="text" id="mail" name="email" class="placeicon" placeholder="&#xf0e0;"><br><br><br>
+        <input type="text" id="password" name="password" class="placeicon" placeholder="&#xf023;">
+
+        <div><button type="button" class="buttonSignup center button-sm-3"><b>Sign Up</b></button></div> <br />
+      </form>
+    </div>
+    <!-- End of row 2 and End of Sign Up Form -->
+      
+  <br>
+  <br>
+
+
+    <!--Added a third row within column 2 to hold <h6> social media text -->
+    <div class="row">
+        <h6>Or Sign Up with social platforms</h6>
+    </div>
+    <!-- End of third row -->
+    
+    <!-- Added a fourth row within column 2 to hold the social media icons -->
+    <!-- Also made each social media icon a link -->
+    <div class="row"> 
+        <p class="icons center">
+            <a href="#"><img src="./images/CRM-Signin/facebook.png" class="rounded" alt="Facebook"></a>
+                                  
+                
+            <a href="#"><img src="./images/CRM-SignIn/twitter.png" class="rounded" alt="Twitter"></a>
+                
+
+            <a href="#"><img src="./images/CRM-SignIn/gmail.png" class="rounded" alt="Gmail"></a>
+                
+
+            <a href="#"><img src="./images/CRM-SignIn/linkedin.png" class="rounded" alt="linkedin"></a>
+                
+        </p>
+    </div>
+    <!-- End of fourth row / End of Social Media Icons Section -->
+
+    
+    </div>
+    <!-- End of Column 2 (Sign Up Form & Social Media Icons)  -->
+            
+
+    <!-- Start of Column 3 (specified col-md-6) - contains image only -->
+        <div class="rightside-col col-md-6">
+            <img src="./images/CRM-SignUp/Group 10.png" class="rounded" alt="Group10">
+        </div>
+
+    <!-- Added blank div for spacing on right side -->
+        <div class="col-md-1"></div>
+   
+</div>
+<!-- End of main page/top div -->
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+</body>
+</html>
