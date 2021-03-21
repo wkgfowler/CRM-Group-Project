@@ -19,6 +19,9 @@ input{
     border-radius: 25px;
 }
 
+form{
+    margin-left: 10%;
+}
 
 .form-control{
     font-family: fontawesome;
@@ -56,4 +59,9 @@ input{
     height: 17%;
     padding: 0 10px;
    align-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
 }
