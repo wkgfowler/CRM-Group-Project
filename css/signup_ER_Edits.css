@@ -1,0 +1,105 @@
+.page1-container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ER Removed .rightside-col */
+/* .rightside-col{
+    width: 30px;
+    height: 30px;
+} */
+
+
+.col>h1{
+        margin-left: 17%;
+}
+.h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+/* ER Added width: 50% to the input item */
+input{
+    border-radius: 25px;
+    width: 50%;
+}
+
+
+.form-control{
+    font-family: fontawesome;
+}
+
+/* ER Added the form spec */
+form {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+/* ER Added the h6 */
+h6 {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* ER Added .center */
+.center {
+    text-align: center;
+}
+
+
+/* ER made the following changes to .buttonSignup:
+    changed width from 30% to 25%
+    removed margin-right specification
+    added margin-top 10%
+    changed padding to 10px all around
+    removed margin-left specification */
+.buttonSignup{
+    background-color:rgba(0, 68, 255, 0.863);
+    border-radius: 35px;
+    width: 25%;
+    /* margin-right: 20px; */
+    color: white;
+    font-size: 100%;
+    margin-top: 10%;
+    padding: 10px;
+    /* margin-left: 75px; */
+    border: 0px;
+    text-align: center;
+}
+
+.socialplatform{
+    margin-left: 200px;
+}
+.placeicon{
+    font-family: fontawesome;
+    padding: 10px;
+}
+.col {
+    color: black;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 70px;
+    font-weight: bold;
+}
+
+/* ER made the following changes to .icons img:
+    removed width: 17% 
+    removed height: 17%
+    added max-width: 24%
+    added max-height: 50%
+    added text-align: center */
+.icons img{
+    /* width: 17%;
+    height: 17%; */
+    padding: 0 10px;
+    max-width: 24%;
+    max-height: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+/* ER Added body spec*/
+body {
+    padding-top: 5%;
+}
